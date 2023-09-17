@@ -20,7 +20,7 @@ app.listen(4000, (err) => {
 
 
 mongoose
-  .connect(process.env.DB_CONN_STRING, {       
+  .connect(process.env.MONGODB_URI, {       
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
