@@ -4,9 +4,7 @@
     "builds": [
       {
         "src": "index.js",
-        "functions": {
-          "api": "./index.js"
-        }
+        "command": "npm run start"
       }
     ]
   }
