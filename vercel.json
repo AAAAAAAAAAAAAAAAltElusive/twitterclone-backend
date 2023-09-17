@@ -1,10 +1,9 @@
 {
     "version": 2,
-    "name": "server",
+    "name": "my-express-backend",
     "builds": [
       {
-        "src": "index.js",
-        "command": "npm run start"
+        "src": "index.js"
       }
     ]
   }
